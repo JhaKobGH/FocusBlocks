@@ -1,0 +1,38 @@
+[gd_resource type="Theme" load_steps=6 format=3 uid="uid://ntle0tcpwfp6"]
+
+[ext_resource type="FontFile" uid="uid://c6w8creet5yap" path="res://fonts/Momentz.ttf" id="1_od8jy"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_u7upr"]
+bg_color = Color(0.203922, 0.286275, 0.368627, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xfa7l"]
+bg_color = Color(0.921569, 0.588235, 0.298039, 1)
+shadow_color = Color(0, 0, 0, 0.117647)
+shadow_size = 1
+shadow_offset = Vector2(0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xv21t"]
+bg_color = Color(0.901961, 0.494118, 0.133333, 1)
+shadow_color = Color(0, 0, 0, 0.117647)
+shadow_size = 1
+shadow_offset = Vector2(0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wowsl"]
+bg_color = Color(0.921569, 0.588235, 0.298039, 1)
+border_width_top = 1
+border_color = Color(0.8, 0.8, 0.8, 0)
+expand_margin_bottom = 1.0
+
+[resource]
+Button/colors/font_color = Color(0.92549, 0.941176, 0.945098, 1)
+Button/colors/font_disabled_color = Color(0.321569, 0.415686, 0.435294, 1)
+Button/colors/font_focus_color = Color(0.92549, 0.941176, 0.945098, 1)
+Button/colors/font_hover_color = Color(0.92549, 0.941176, 0.945098, 1)
+Button/colors/font_hover_pressed_color = Color(0.92549, 0.941176, 0.945098, 1)
+Button/colors/font_pressed_color = Color(0.92549, 0.941176, 0.945098, 1)
+Button/fonts/font = ExtResource("1_od8jy")
+Button/styles/disabled = SubResource("StyleBoxFlat_u7upr")
+Button/styles/focus = null
+Button/styles/hover = SubResource("StyleBoxFlat_xfa7l")
+Button/styles/normal = SubResource("StyleBoxFlat_xv21t")
+Button/styles/pressed = SubResource("StyleBoxFlat_wowsl")

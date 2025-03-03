@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dw2hmkx1fmno2"]
+
+[ext_resource type="Script" path="res://block.gd" id="2_1ulhe"]
+
+[node name="Block" type="ColorRect"]
+offset_right = 8.0
+offset_bottom = 8.0
+color = Color(0.498039, 0.54902, 0.552941, 1)
+script = ExtResource("2_1ulhe")

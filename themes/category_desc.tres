@@ -1,0 +1,65 @@
+[gd_resource type="Theme" load_steps=7 format=3 uid="uid://mqrxs8ijg7o7"]
+
+[ext_resource type="FontFile" uid="uid://c6w8creet5yap" path="res://fonts/Momentz.ttf" id="1_ncspb"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_l0mxg"]
+bg_color = Color(0.584314, 0.647059, 0.65098, 1)
+border_width_left = 6
+border_width_right = 6
+border_color = Color(0.584314, 0.647059, 0.65098, 1)
+shadow_color = Color(0, 0, 0, 0.117647)
+shadow_size = 1
+shadow_offset = Vector2(0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_p3jmb"]
+bg_color = Color(0.584314, 0.647059, 0.65098, 1)
+border_width_left = 6
+border_width_right = 6
+border_color = Color(0.584314, 0.647059, 0.65098, 1)
+shadow_color = Color(0, 0, 0, 0.117647)
+shadow_size = 1
+shadow_offset = Vector2(0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ikncb"]
+bg_color = Color(0.584314, 0.647059, 0.65098, 1)
+border_width_left = 6
+border_width_right = 6
+border_color = Color(0.584314, 0.647059, 0.65098, 1)
+shadow_color = Color(0, 0, 0, 0.117647)
+shadow_size = 1
+shadow_offset = Vector2(0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vtof4"]
+bg_color = Color(0.584314, 0.647059, 0.65098, 1)
+border_width_left = 6
+border_width_right = 6
+border_color = Color(0.584314, 0.647059, 0.65098, 1)
+shadow_color = Color(0, 0, 0, 0.117647)
+shadow_size = 1
+shadow_offset = Vector2(0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_g4k86"]
+bg_color = Color(0.584314, 0.647059, 0.65098, 1)
+border_width_left = 6
+border_width_right = 6
+border_color = Color(0.584314, 0.647059, 0.65098, 1)
+shadow_color = Color(0, 0, 0, 0.117647)
+shadow_size = 1
+shadow_offset = Vector2(0, 1)
+
+[resource]
+LineEdit/colors/font_color = Color(0.92549, 0.941176, 0.945098, 1)
+LineEdit/colors/font_uneditable_color = Color(0.92549, 0.941176, 0.945098, 1)
+LineEdit/font_sizes/font_size = 14
+LineEdit/fonts/font = ExtResource("1_ncspb")
+LineEdit/styles/focus = SubResource("StyleBoxFlat_l0mxg")
+LineEdit/styles/normal = SubResource("StyleBoxFlat_l0mxg")
+LineEdit/styles/read_only = SubResource("StyleBoxFlat_l0mxg")
+Panel/styles/panel = SubResource("StyleBoxFlat_p3jmb")
+TextEdit/colors/font_color = Color(0.92549, 0.941176, 0.945098, 1)
+TextEdit/colors/font_readonly_color = Color(0.92549, 0.941176, 0.945098, 1)
+TextEdit/font_sizes/font_size = 14
+TextEdit/fonts/font = ExtResource("1_ncspb")
+TextEdit/styles/focus = SubResource("StyleBoxFlat_ikncb")
+TextEdit/styles/normal = SubResource("StyleBoxFlat_vtof4")
+TextEdit/styles/read_only = SubResource("StyleBoxFlat_g4k86")

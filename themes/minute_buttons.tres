@@ -1,0 +1,38 @@
+[gd_resource type="Theme" load_steps=6 format=3 uid="uid://c2tbala7tkm76"]
+
+[ext_resource type="FontFile" uid="uid://c6w8creet5yap" path="res://fonts/Momentz.ttf" id="1_dkmua"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wled6"]
+bg_color = Color(0.203922, 0.286275, 0.368627, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_75xr6"]
+bg_color = Color(0.960784, 0.831373, 0.317647, 1)
+shadow_color = Color(0, 0, 0, 0.117647)
+shadow_size = 1
+shadow_offset = Vector2(0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bv5bl"]
+bg_color = Color(0.945098, 0.768627, 0.0588235, 1)
+shadow_color = Color(0, 0, 0, 0.117647)
+shadow_size = 1
+shadow_offset = Vector2(0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ccxql"]
+bg_color = Color(0.960784, 0.831373, 0.317647, 1)
+border_width_top = 1
+border_color = Color(0.8, 0.8, 0.8, 0)
+expand_margin_bottom = 1.0
+
+[resource]
+Button/colors/font_color = Color(0.92549, 0.941176, 0.945098, 1)
+Button/colors/font_disabled_color = Color(0.321569, 0.415686, 0.435294, 1)
+Button/colors/font_focus_color = Color(0.92549, 0.941176, 0.945098, 1)
+Button/colors/font_hover_color = Color(0.92549, 0.941176, 0.945098, 1)
+Button/colors/font_hover_pressed_color = Color(0.92549, 0.941176, 0.945098, 1)
+Button/colors/font_pressed_color = Color(0.92549, 0.941176, 0.945098, 1)
+Button/fonts/font = ExtResource("1_dkmua")
+Button/styles/disabled = SubResource("StyleBoxFlat_wled6")
+Button/styles/focus = null
+Button/styles/hover = SubResource("StyleBoxFlat_75xr6")
+Button/styles/normal = SubResource("StyleBoxFlat_bv5bl")
+Button/styles/pressed = SubResource("StyleBoxFlat_ccxql")

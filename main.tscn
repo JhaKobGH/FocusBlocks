@@ -1,0 +1,820 @@
+[gd_scene load_steps=87 format=3 uid="uid://bj0weq6ra35d5"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_p2oyt"]
+[ext_resource type="Theme" uid="uid://c2tbala7tkm76" path="res://themes/minute_buttons.tres" id="2_mggj5"]
+[ext_resource type="Texture2D" uid="uid://cefui0gprp7q2" path="res://assets/Lines_1_animated.png" id="3_l3t3x"]
+[ext_resource type="Theme" uid="uid://ntle0tcpwfp6" path="res://themes/hour_buttons.tres" id="3_t0nkq"]
+[ext_resource type="Texture2D" uid="uid://bthgrbg3eg18f" path="res://assets/Lines_1_B-animated.png" id="4_0mvpq"]
+[ext_resource type="FontFile" uid="uid://c6w8creet5yap" path="res://fonts/Momentz.ttf" id="4_r8nuw"]
+[ext_resource type="Theme" uid="uid://mqrxs8ijg7o7" path="res://themes/category_desc.tres" id="7_mf7ot"]
+
+[sub_resource type="Theme" id="Theme_6217l"]
+RichTextLabel/colors/default_color = Color(0.92549, 0.941176, 0.945098, 1)
+RichTextLabel/fonts/normal_font = ExtResource("4_r8nuw")
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ufa2o"]
+atlas = ExtResource("3_l3t3x")
+region = Rect2(0, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vuby0"]
+atlas = ExtResource("3_l3t3x")
+region = Rect2(232, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g2kcm"]
+atlas = ExtResource("3_l3t3x")
+region = Rect2(464, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e1ccn"]
+atlas = ExtResource("3_l3t3x")
+region = Rect2(696, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rd7lx"]
+atlas = ExtResource("3_l3t3x")
+region = Rect2(928, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wma0r"]
+atlas = ExtResource("3_l3t3x")
+region = Rect2(1160, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_peigq"]
+atlas = ExtResource("3_l3t3x")
+region = Rect2(1392, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mhvo4"]
+atlas = ExtResource("3_l3t3x")
+region = Rect2(1624, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_286tl"]
+atlas = ExtResource("3_l3t3x")
+region = Rect2(1856, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2kqxo"]
+atlas = ExtResource("3_l3t3x")
+region = Rect2(2088, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_crsit"]
+atlas = ExtResource("3_l3t3x")
+region = Rect2(2320, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h2ruj"]
+atlas = ExtResource("3_l3t3x")
+region = Rect2(2552, 0, 232, 40)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ik88w"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ufa2o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vuby0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g2kcm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e1ccn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rd7lx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wma0r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_peigq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mhvo4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_286tl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2kqxo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_crsit")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h2ruj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h2ruj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h2ruj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h2ruj")
+}],
+"loop": true,
+"name": &"default",
+"speed": 15.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sleiu"]
+atlas = ExtResource("3_l3t3x")
+region = Rect2(0, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p8hk3"]
+atlas = ExtResource("3_l3t3x")
+region = Rect2(232, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gw1r5"]
+atlas = ExtResource("3_l3t3x")
+region = Rect2(464, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gthrd"]
+atlas = ExtResource("3_l3t3x")
+region = Rect2(696, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gre84"]
+atlas = ExtResource("3_l3t3x")
+region = Rect2(928, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7b0tm"]
+atlas = ExtResource("3_l3t3x")
+region = Rect2(1160, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oga62"]
+atlas = ExtResource("3_l3t3x")
+region = Rect2(1392, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o4amr"]
+atlas = ExtResource("3_l3t3x")
+region = Rect2(1624, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i6dup"]
+atlas = ExtResource("3_l3t3x")
+region = Rect2(1856, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_071o2"]
+atlas = ExtResource("3_l3t3x")
+region = Rect2(2088, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gqeaj"]
+atlas = ExtResource("3_l3t3x")
+region = Rect2(2320, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4stxc"]
+atlas = ExtResource("3_l3t3x")
+region = Rect2(2552, 0, 232, 40)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1ygmh"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sleiu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p8hk3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gw1r5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gthrd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gre84")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7b0tm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oga62")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o4amr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i6dup")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_071o2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gqeaj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4stxc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4stxc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4stxc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4stxc")
+}],
+"loop": true,
+"name": &"default",
+"speed": 15.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hhmn5"]
+atlas = ExtResource("4_0mvpq")
+region = Rect2(0, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h07yb"]
+atlas = ExtResource("4_0mvpq")
+region = Rect2(232, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_alnps"]
+atlas = ExtResource("4_0mvpq")
+region = Rect2(464, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5116x"]
+atlas = ExtResource("4_0mvpq")
+region = Rect2(696, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_admre"]
+atlas = ExtResource("4_0mvpq")
+region = Rect2(928, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b0yu6"]
+atlas = ExtResource("4_0mvpq")
+region = Rect2(1160, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iq4yq"]
+atlas = ExtResource("4_0mvpq")
+region = Rect2(1392, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eui6b"]
+atlas = ExtResource("4_0mvpq")
+region = Rect2(1624, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q7gag"]
+atlas = ExtResource("4_0mvpq")
+region = Rect2(1856, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ie48n"]
+atlas = ExtResource("4_0mvpq")
+region = Rect2(2088, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nd6w7"]
+atlas = ExtResource("4_0mvpq")
+region = Rect2(2320, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2o7wq"]
+atlas = ExtResource("4_0mvpq")
+region = Rect2(2552, 0, 232, 40)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6fht6"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hhmn5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h07yb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_alnps")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5116x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_admre")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b0yu6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iq4yq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eui6b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q7gag")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ie48n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nd6w7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2o7wq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2o7wq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2o7wq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2o7wq")
+}],
+"loop": true,
+"name": &"default",
+"speed": 15.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2khoo"]
+atlas = ExtResource("4_0mvpq")
+region = Rect2(0, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bwhr7"]
+atlas = ExtResource("4_0mvpq")
+region = Rect2(232, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_df47d"]
+atlas = ExtResource("4_0mvpq")
+region = Rect2(464, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0fqff"]
+atlas = ExtResource("4_0mvpq")
+region = Rect2(696, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_88han"]
+atlas = ExtResource("4_0mvpq")
+region = Rect2(928, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nhb0r"]
+atlas = ExtResource("4_0mvpq")
+region = Rect2(1160, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qyack"]
+atlas = ExtResource("4_0mvpq")
+region = Rect2(1392, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ietsl"]
+atlas = ExtResource("4_0mvpq")
+region = Rect2(1624, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w4d6g"]
+atlas = ExtResource("4_0mvpq")
+region = Rect2(1856, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vrhbi"]
+atlas = ExtResource("4_0mvpq")
+region = Rect2(2088, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1jos3"]
+atlas = ExtResource("4_0mvpq")
+region = Rect2(2320, 0, 232, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rkve0"]
+atlas = ExtResource("4_0mvpq")
+region = Rect2(2552, 0, 232, 40)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_bqhrv"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2khoo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bwhr7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_df47d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0fqff")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_88han")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nhb0r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qyack")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ietsl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w4d6g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vrhbi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1jos3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rkve0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rkve0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rkve0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rkve0")
+}],
+"loop": true,
+"name": &"default",
+"speed": 15.0
+}]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8h485"]
+bg_color = Color(0.92549, 0.941176, 0.945098, 1)
+shadow_color = Color(0, 0, 0, 0.117647)
+shadow_size = 1
+shadow_offset = Vector2(0, 1)
+
+[sub_resource type="Theme" id="Theme_jjy6i"]
+Panel/styles/panel = SubResource("StyleBoxFlat_8h485")
+
+[sub_resource type="Theme" id="Theme_wox6x"]
+Panel/styles/panel = SubResource("StyleBoxFlat_8h485")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_g48go"]
+bg_color = Color(0.203922, 0.286275, 0.368627, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hkmpx"]
+bg_color = Color(0.929412, 0.478431, 0.431373, 1)
+shadow_color = Color(0, 0, 0, 0.117647)
+shadow_size = 1
+shadow_offset = Vector2(0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gpmdr"]
+bg_color = Color(0.905882, 0.298039, 0.235294, 1)
+shadow_color = Color(0, 0, 0, 0.117647)
+shadow_size = 1
+shadow_offset = Vector2(0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mqadx"]
+bg_color = Color(0.929412, 0.478431, 0.431373, 1)
+border_width_top = 1
+border_color = Color(0.8, 0.8, 0.8, 0)
+expand_margin_bottom = 1.0
+
+[sub_resource type="Theme" id="Theme_k0nhv"]
+Button/colors/font_color = Color(0.92549, 0.941176, 0.945098, 1)
+Button/colors/font_disabled_color = Color(0.321569, 0.415686, 0.435294, 1)
+Button/colors/font_focus_color = Color(0.92549, 0.941176, 0.945098, 1)
+Button/colors/font_hover_color = Color(0.92549, 0.941176, 0.945098, 1)
+Button/colors/font_hover_pressed_color = Color(0.92549, 0.941176, 0.945098, 1)
+Button/colors/font_pressed_color = Color(0.92549, 0.941176, 0.945098, 1)
+Button/fonts/font = ExtResource("4_r8nuw")
+Button/styles/disabled = SubResource("StyleBoxFlat_g48go")
+Button/styles/focus = null
+Button/styles/hover = SubResource("StyleBoxFlat_hkmpx")
+Button/styles/normal = SubResource("StyleBoxFlat_gpmdr")
+Button/styles/pressed = SubResource("StyleBoxFlat_mqadx")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3u8of"]
+bg_color = Color(0.203922, 0.286275, 0.368627, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1q3by"]
+bg_color = Color(0.686275, 0.45098, 0.788235, 1)
+shadow_color = Color(0, 0, 0, 0.117647)
+shadow_size = 1
+shadow_offset = Vector2(0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fx548"]
+bg_color = Color(0.556863, 0.266667, 0.678431, 1)
+shadow_color = Color(0, 0, 0, 0.117647)
+shadow_size = 1
+shadow_offset = Vector2(0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hvpo1"]
+bg_color = Color(0.686275, 0.45098, 0.788235, 1)
+border_width_top = 1
+border_color = Color(0.8, 0.8, 0.8, 0)
+expand_margin_bottom = 1.0
+
+[sub_resource type="Theme" id="Theme_crdmv"]
+Button/colors/font_color = Color(0.92549, 0.941176, 0.945098, 1)
+Button/colors/font_disabled_color = Color(0.321569, 0.415686, 0.435294, 1)
+Button/colors/font_focus_color = Color(0.92549, 0.941176, 0.945098, 1)
+Button/colors/font_hover_color = Color(0.92549, 0.941176, 0.945098, 1)
+Button/colors/font_hover_pressed_color = Color(0.92549, 0.941176, 0.945098, 1)
+Button/colors/font_pressed_color = Color(0.92549, 0.941176, 0.945098, 1)
+Button/fonts/font = ExtResource("4_r8nuw")
+Button/styles/disabled = SubResource("StyleBoxFlat_3u8of")
+Button/styles/focus = null
+Button/styles/hover = SubResource("StyleBoxFlat_1q3by")
+Button/styles/normal = SubResource("StyleBoxFlat_fx548")
+Button/styles/pressed = SubResource("StyleBoxFlat_hvpo1")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cr2so"]
+bg_color = Color(0.203922, 0.286275, 0.368627, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8votr"]
+bg_color = Color(0.411765, 0.866667, 0.603922, 1)
+shadow_color = Color(0, 0, 0, 0.117647)
+shadow_size = 1
+shadow_offset = Vector2(0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tpdx4"]
+bg_color = Color(0.180392, 0.8, 0.443137, 1)
+shadow_color = Color(0, 0, 0, 0.117647)
+shadow_size = 1
+shadow_offset = Vector2(0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cnrlx"]
+bg_color = Color(0.411765, 0.866667, 0.603922, 1)
+border_width_top = 1
+border_color = Color(0.8, 0.8, 0.8, 0)
+expand_margin_bottom = 1.0
+
+[sub_resource type="Theme" id="Theme_gvqvr"]
+Button/colors/font_color = Color(0.92549, 0.941176, 0.945098, 1)
+Button/colors/font_disabled_color = Color(0.321569, 0.415686, 0.435294, 1)
+Button/colors/font_focus_color = Color(0.92549, 0.941176, 0.945098, 1)
+Button/colors/font_hover_color = Color(0.92549, 0.941176, 0.945098, 1)
+Button/colors/font_hover_pressed_color = Color(0.92549, 0.941176, 0.945098, 1)
+Button/colors/font_pressed_color = Color(0.92549, 0.941176, 0.945098, 1)
+Button/fonts/font = ExtResource("4_r8nuw")
+Button/styles/disabled = SubResource("StyleBoxFlat_cr2so")
+Button/styles/focus = null
+Button/styles/hover = SubResource("StyleBoxFlat_8votr")
+Button/styles/normal = SubResource("StyleBoxFlat_tpdx4")
+Button/styles/pressed = SubResource("StyleBoxFlat_cnrlx")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_haoie"]
+bg_color = Color(0.203922, 0.286275, 0.368627, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_q5i3i"]
+bg_color = Color(0.109804, 0.792157, 0.654902, 1)
+shadow_color = Color(0, 0, 0, 0.117647)
+shadow_size = 1
+shadow_offset = Vector2(0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_eksxy"]
+bg_color = Color(0.0862745, 0.627451, 0.521569, 1)
+shadow_color = Color(0, 0, 0, 0.117647)
+shadow_size = 1
+shadow_offset = Vector2(0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8es5y"]
+bg_color = Color(0.109804, 0.792157, 0.654902, 1)
+border_width_top = 1
+border_color = Color(0.8, 0.8, 0.8, 0)
+expand_margin_bottom = 1.0
+
+[sub_resource type="Theme" id="Theme_wvggd"]
+Button/colors/font_color = Color(0.92549, 0.941176, 0.945098, 1)
+Button/colors/font_disabled_color = Color(0.321569, 0.415686, 0.435294, 1)
+Button/colors/font_focus_color = Color(0.92549, 0.941176, 0.945098, 1)
+Button/colors/font_hover_color = Color(0.92549, 0.941176, 0.945098, 1)
+Button/colors/font_hover_pressed_color = Color(0.92549, 0.941176, 0.945098, 1)
+Button/colors/font_pressed_color = Color(0.92549, 0.941176, 0.945098, 1)
+Button/fonts/font = ExtResource("4_r8nuw")
+Button/styles/disabled = SubResource("StyleBoxFlat_haoie")
+Button/styles/focus = null
+Button/styles/hover = SubResource("StyleBoxFlat_q5i3i")
+Button/styles/normal = SubResource("StyleBoxFlat_eksxy")
+Button/styles/pressed = SubResource("StyleBoxFlat_8es5y")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qdfc6"]
+bg_color = Color(0.92549, 0.941176, 0.945098, 1)
+shadow_color = Color(0, 0, 0, 0.117647)
+shadow_size = 1
+shadow_offset = Vector2(0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_f4asi"]
+bg_color = Color(0.101961, 0.737255, 0.611765, 1)
+
+[sub_resource type="Theme" id="Theme_l20jq"]
+RichTextLabel/colors/default_color = Color(0.92549, 0.941176, 0.945098, 1)
+RichTextLabel/fonts/normal_font = ExtResource("4_r8nuw")
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_p2oyt")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+
+[node name="BG" type="ColorRect" parent="."]
+offset_right = 640.0
+offset_bottom = 360.0
+color = Color(0.203922, 0.596078, 0.858824, 1)
+
+[node name="FocusBlocks" type="RichTextLabel" parent="."]
+offset_left = 264.0
+offset_top = 16.0
+offset_right = 376.0
+offset_bottom = 40.0
+theme = SubResource("Theme_6217l")
+text = "Focus Blocks"
+scroll_active = false
+autowrap_mode = 0
+
+[node name="Lines" type="Node2D" parent="."]
+
+[node name="Lines_TL" type="AnimatedSprite2D" parent="Lines"]
+position = Vector2(16, 8)
+sprite_frames = SubResource("SpriteFrames_ik88w")
+frame = 14
+frame_progress = 0.957627
+centered = false
+
+[node name="Lines_TR" type="AnimatedSprite2D" parent="Lines"]
+position = Vector2(392, 8)
+sprite_frames = SubResource("SpriteFrames_1ygmh")
+centered = false
+flip_h = true
+
+[node name="Lines_BL" type="AnimatedSprite2D" parent="Lines"]
+position = Vector2(16, 312)
+sprite_frames = SubResource("SpriteFrames_6fht6")
+centered = false
+flip_v = true
+
+[node name="Lines_BR" type="AnimatedSprite2D" parent="Lines"]
+position = Vector2(392, 312)
+sprite_frames = SubResource("SpriteFrames_bqhrv")
+centered = false
+flip_h = true
+flip_v = true
+
+[node name="BlockBuilder" type="Panel" parent="."]
+offset_left = 400.0
+offset_top = 80.0
+offset_right = 608.0
+offset_bottom = 248.0
+theme = SubResource("Theme_jjy6i")
+
+[node name="BlockBuilderViewer" type="Panel" parent="."]
+visible = false
+offset_left = 240.0
+offset_top = 80.0
+offset_right = 608.0
+offset_bottom = 248.0
+theme = SubResource("Theme_wox6x")
+
+[node name="TimeButtons" type="Node2D" parent="."]
+
+[node name="5_Min" type="Button" parent="TimeButtons"]
+offset_left = 32.0
+offset_top = 80.0
+offset_right = 120.0
+offset_bottom = 117.0
+tooltip_text = "5 Min"
+focus_mode = 0
+theme = ExtResource("2_mggj5")
+text = "5 Min"
+
+[node name="15_Min" type="Button" parent="TimeButtons"]
+offset_left = 32.0
+offset_top = 144.0
+offset_right = 120.0
+offset_bottom = 181.0
+focus_mode = 0
+theme = ExtResource("2_mggj5")
+text = "15  Min"
+
+[node name="30_Min" type="Button" parent="TimeButtons"]
+offset_left = 32.0
+offset_top = 208.0
+offset_right = 120.0
+offset_bottom = 245.0
+focus_mode = 0
+theme = ExtResource("2_mggj5")
+text = "30 Min"
+
+[node name="1_Hour" type="Button" parent="TimeButtons"]
+offset_left = 144.0
+offset_top = 80.0
+offset_right = 232.0
+offset_bottom = 117.0
+focus_mode = 0
+theme = ExtResource("3_t0nkq")
+text = "1 Hour"
+
+[node name="3_Hour" type="Button" parent="TimeButtons"]
+offset_left = 144.0
+offset_top = 144.0
+offset_right = 232.0
+offset_bottom = 181.0
+focus_mode = 0
+theme = ExtResource("3_t0nkq")
+text = "3  Hour"
+
+[node name="6_Hour" type="Button" parent="TimeButtons"]
+offset_left = 144.0
+offset_top = 208.0
+offset_right = 232.0
+offset_bottom = 245.0
+focus_mode = 0
+theme = ExtResource("3_t0nkq")
+text = "6 Hour"
+
+[node name="Category_Description" type="Node2D" parent="."]
+visible = false
+
+[node name="Category" type="LineEdit" parent="Category_Description"]
+offset_left = 32.0
+offset_top = 80.0
+offset_right = 232.0
+offset_bottom = 111.0
+theme = ExtResource("7_mf7ot")
+placeholder_text = "Category"
+max_length = 16
+
+[node name="Shadow_Panel_Workaround" type="Panel" parent="Category_Description"]
+offset_left = 32.0
+offset_top = 120.0
+offset_right = 232.0
+offset_bottom = 248.0
+theme = ExtResource("7_mf7ot")
+
+[node name="Description" type="TextEdit" parent="Category_Description"]
+offset_left = 32.0
+offset_top = 120.0
+offset_right = 232.0
+offset_bottom = 248.0
+theme = ExtResource("7_mf7ot")
+placeholder_text = "Description"
+wrap_mode = 1
+
+[node name="Reset_Start" type="Node2D" parent="."]
+
+[node name="ResetBlock" type="Button" parent="Reset_Start"]
+visible = false
+offset_left = 264.0
+offset_top = 96.0
+offset_right = 368.0
+offset_bottom = 149.0
+focus_mode = 0
+theme = SubResource("Theme_k0nhv")
+text = "Reset
+Block"
+
+[node name="ViewBlock" type="Button" parent="Reset_Start"]
+offset_left = 264.0
+offset_top = 96.0
+offset_right = 368.0
+offset_bottom = 149.0
+focus_mode = 0
+theme = SubResource("Theme_crdmv")
+text = "View
+Block"
+
+[node name="StartBlock" type="Button" parent="Reset_Start"]
+offset_left = 264.0
+offset_top = 176.0
+offset_right = 368.0
+offset_bottom = 229.0
+focus_mode = 0
+theme = SubResource("Theme_gvqvr")
+text = "Start
+Block"
+
+[node name="Delete_Save" type="Node2D" parent="."]
+visible = false
+
+[node name="DeleteBlock" type="Button" parent="Delete_Save"]
+offset_left = 264.0
+offset_top = 96.0
+offset_right = 368.0
+offset_bottom = 149.0
+focus_mode = 0
+theme = SubResource("Theme_k0nhv")
+text = "Delete
+Block"
+
+[node name="SaveBlock" type="Button" parent="Delete_Save"]
+offset_left = 264.0
+offset_top = 176.0
+offset_right = 368.0
+offset_bottom = 229.0
+focus_mode = 0
+theme = SubResource("Theme_gvqvr")
+text = "Save
+Block"
+
+[node name="GoBack" type="Button" parent="."]
+visible = false
+offset_left = 264.0
+offset_top = 256.0
+offset_right = 368.0
+offset_bottom = 309.0
+focus_mode = 0
+theme = SubResource("Theme_wvggd")
+text = "Go
+Back"
+
+[node name="ProgressBar" type="ProgressBar" parent="."]
+offset_left = 32.0
+offset_top = 280.0
+offset_right = 608.0
+offset_bottom = 294.0
+theme_override_styles/background = SubResource("StyleBoxFlat_qdfc6")
+theme_override_styles/fill = SubResource("StyleBoxFlat_f4asi")
+step = 1.0
+show_percentage = false
+
+[node name="Time" type="RichTextLabel" parent="."]
+offset_left = 264.0
+offset_top = 324.0
+offset_right = 368.0
+offset_bottom = 348.0
+theme = SubResource("Theme_l20jq")
+bbcode_enabled = true
+text = "[center]00:00:00[/center]"
+scroll_active = false
+autowrap_mode = 0
+
+[node name="Blocks" type="Node" parent="."]
